@@ -18,7 +18,7 @@ MPI_Init(&argc,&argv);
       sum+=1;
 }
 }
-  printf("geshu:%d\n",sum);
+  printf("Number:%d\n",sum);
 gettimeofday(&end, NULL );
 long timeuse =1000000 * ( end.tv_sec - start.tv_sec ) + end.tv_usec - start.tv_usec;
 printf("time=%f s\n",timeuse/1000000.0);
