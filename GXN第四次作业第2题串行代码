@@ -6,7 +6,7 @@ void main()
   struct timeval start,end;
     gettimeofday(&start, NULL );
  int i,j,sum=0;
-    for(i=2;i<10000;i++)
+    for(i=2;i<100000;i++)
 {
     for(j=2;j<i;j++)
 {
